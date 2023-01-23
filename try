@@ -1,0 +1,20 @@
+
+# Import module 
+from tkinter import *
+root = Tk()
+root.geometry("400x350+350+100")
+
+bg = PhotoImage(file = "y.png")
+
+canvas1 = Canvas( root, width = 500,height = 500)
+ 
+canvas1.pack(fill = "both", expand = True)
+
+canvas1.create_image( 0, 0, image = bg,anchor = "nw")
+
+canvas1.create_text( 150,50, text = "Finding difficulty in tracking you're records?\n Well You're at the right place!!")
+
+button1 = Button( root, text = "Login")
+
+button1_canvas = canvas1.create_window( 0, 200, anchor = "nw",window = button1)
+root.mainloop()

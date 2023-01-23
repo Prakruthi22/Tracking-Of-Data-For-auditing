@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1001</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="bglabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1000</width>
+      <height>1001</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(3, 45, 78);
+</string>
+    </property>
+    <property name="text">
+     <string>.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mainlabel">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>60</y>
+      <width>801</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Algerian&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>PLEASE FILL IN THE  REQUIRED DETAILS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="incomelabel">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>331</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Algerian&quot;;
+
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>income details</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="productlabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>361</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Algerian&quot;;
+
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>PRODUCT DETAILS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rawlabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>380</y>
+      <width>381</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Algerian&quot;;
+
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Raw materials details</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="emplabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>520</y>
+      <width>411</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Algerian&quot;;
+
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>EMPLOYEE SALARY DETAILS</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="income">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>170</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Algerian&quot;;
+border-bottom-color: rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgba(0,0,0,255);
+padding-bottom:3px;
+</string>
+    </property>
+    <property name="text">
+     <string>income</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="month">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>170</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Algerian&quot;;
+border-bottom-color:rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgba(0,0,0,255);
+padding-bottom:3px;</string>
+    </property>
+    <property name="text">
+     <string>MONTH</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="year">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>170</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Algerian&quot;;
+border-bottom-color: rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgba(0,0,0,255);
+padding-bottom:3px;</string>
+    </property>
+    <property name="text">
+     <string>YEAR</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="prodname">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>300</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Algerian&quot;;
+border-bottom-color: rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgba(0,0,0,255);
+padding-bottom:3px;</string>
+    </property>
+    <property name="text">
+     <string>name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="prodquan">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>300</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Algerian&quot;;
+border-bottom-color: rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgba(0,0,0,255);
+padding-bottom:3px;</string>
+    </property>
+    <property name="text">
+     <string>quantity</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="prodprice">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>300</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Algerian&quot;;
+border-bottom-color: rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgba(0,0,0,255);
+padding-bottom:3px;</string>
+    </property>
+    <property name="text">
+     <string>price</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="yearproduct">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>300</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Algerian&quot;;
+border-bottom-color: rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgba(0,0,0,255);
+padding-bottom:3px;</string>
+    </property>
+    <property name="text">
+     <string>year</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="rawname">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>430</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Algerian&quot;;
+border-bottom-color: rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgba(0,0,0,255);
+padding-bottom:3px;</string>
+    </property>
+    <property name="text">
+     <string>name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="rawprice">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>430</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Algerian&quot;;
+border-bottom-color: rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgba(0,0,0,255);
+padding-bottom:3px;</string>
+    </property>
+    <property name="text">
+     <string>PRICE</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="rawquan">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>430</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Algerian&quot;;
+border-bottom-color: rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgba(0,0,0,255);
+padding-bottom:3px;</string>
+    </property>
+    <property name="text">
+     <string>quantity</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="rawyear">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>430</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Algerian&quot;;
+border-bottom-color: rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgba(0,0,0,255);
+padding-bottom:3px;</string>
+    </property>
+    <property name="text">
+     <string>year</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="empname">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>560</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Algerian&quot;;
+border-bottom-color: rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgba(0,0,0,255);
+padding-bottom:3px;</string>
+    </property>
+    <property name="text">
+     <string>name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="phno">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>560</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Algerian&quot;;
+border-bottom-color: rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgba(0,0,0,255);
+padding-bottom:3px;
+</string>
+    </property>
+    <property name="text">
+     <string>phone number</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="empsal">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>560</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Algerian&quot;;
+border-bottom-color: rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgba(0,0,0,255);
+padding-bottom:3px;</string>
+    </property>
+    <property name="text">
+     <string>salary</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="empyear">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>560</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Algerian&quot;;
+border-bottom-color: rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgba(0,0,0,255);
+padding-bottom:3px;</string>
+    </property>
+    <property name="text">
+     <string>salary year</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>76</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Algerian&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>back</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="incomebtn">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>220</y>
+      <width>76</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Algerian&quot;;</string>
+    </property>
+    <property name="text">
+     <string>submit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="prodbtn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>340</y>
+      <width>76</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Algerian&quot;;</string>
+    </property>
+    <property name="text">
+     <string>submit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rawbtn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>480</y>
+      <width>76</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Algerian&quot;;</string>
+    </property>
+    <property name="text">
+     <string>submit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="salbtn">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>620</y>
+      <width>76</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Algerian&quot;;</string>
+    </property>
+    <property name="text">
+     <string>submit</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
